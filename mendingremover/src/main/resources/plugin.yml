@@ -1,0 +1,10 @@
+name: Mendingremover
+version: ${project.version}
+main: me.lewin.mendingremover.Main
+api-version: 1.16
+authors: [ Lewin22 ]
+description: minecraft plugin to remove mending enchentment in delluna
+permissions:
+  removemendingop:
+    description: Excluded from repair removal
+    default: op
